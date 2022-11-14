@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* add font family*/
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container,
+.nav-links,
+.cart{
+    display: flex;
+}
+.logo-container {
+    flex: 1;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+nav{
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none ;
+}
+.nav-link{
+    color: #060677;
+    font-size: 18px;
+    text-decoration: none;
+}
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+.presentation {
+    display: flex;
+    width: 90%;
+    min-height: 80vh;
+    margin: auto;
+    align-items: center;
+}
+.introduction {
+    flex: 1;
+}
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, blue, rgb(7, 151, 208));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text h3 {
+    font-size: 28px;
+    font-weight: 500;
+    background: linear-gradient(to right, rgb(95, 11, 185), rgb(171, 27, 197));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+.intro-text ul {
+    list-style: none;
+}
+.TV-specs li {
+    margin-top: 5px;
+    color: rgb(10, 10, 174);
+}
+.btns {
+    padding-top: 50px;
+}
+.btn-buy {
+    border: 2px solid #5f0498;
+	background: transparent;
+	color: #9013ce;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.btn-buy :hover {
+    background-color: #9013ce;
+}
+.btn-add {
+    background: #9407b1;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin-top: 30px;
+}
+.btn-add :hover {
+    background-color: #40075d;
+}
+.productimg {
+    flex: 1;
+}
+.productimg img {
+    height: 50vh;
+}
+
